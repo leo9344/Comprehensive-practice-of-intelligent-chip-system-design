@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Aug 29 10:38:05 2022
+# Process ID: 9496
+# Current directory: E:/个人/学习/大四上/智能芯片与系统设计综合实践/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14264 E:\个人\学习\大四上\智能芯片与系统设计综合实践\Comprehensive-practice-of-intelligent-chip-system-design\FPGA-proj-master\CNN_minist\CNN_minist.xpr
+# Log file: E:/个人/学习/大四上/智能芯片与系统设计综合实践/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/vivado.log
+# Journal file: E:/个人/学习/大四上/智能芯片与系统设计综合实践/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/个人/学习/大四上/智能芯片与系统设计综合实践/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/个人/学习/大四上/智能芯片与系统设计综合实践/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist'
+INFO: [Project 1-313] Project file moved from 'D:/DATA/vivado_project/0TEST/minist_cnn/CNN_minist' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'fifo_generator_1000' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'fifo_generator_1000' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_0' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'B_conv1' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'B_conv1' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'B_conv2' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'B_conv2' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'W_conv2' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'W_conv2' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'W_conv1' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'W_conv1' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'feature_ram' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'feature_ram' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'W_fc1' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'W_fc1' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'fifo_generator_200' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'fifo_generator_200' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'W_fc2' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'W_fc2' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'B_fc1' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'B_fc1' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'B_fc2' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'B_fc2' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'picture_784' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'picture_784' (customized with software release 2018.3) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:45 . Memory (MB): peak = 891.027 ; gain = 9.801
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_conv1/B_conv1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_conv2/B_conv2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_fc1/B_fc1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_fc2/B_fc2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_conv1/W_conv1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_conv2/W_conv2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_fc1/W_fc1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_fc2/W_fc2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/feature_ram/feature_ram e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/fifo_generator_1000/fifo_generator_1000 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/fifo_generator_200/fifo_generator_200 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/picture_784/picture_784}] -log ip_upgrade.log
+WARNING: [Coretcl 2-176] No IPs found
+ERROR: [Common 17-69] Command failed: No IP specified.  Please specify IP with 'objects'
+upgrade_ip [get_ips  {e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_conv1/B_conv1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_conv2/B_conv2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_fc1/B_fc1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_fc2/B_fc2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_conv1/W_conv1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_conv2/W_conv2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_fc1/W_fc1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_fc2/W_fc2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/feature_ram/feature_ram e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/fifo_generator_1000/fifo_generator_1000 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/fifo_generator_200/fifo_generator_200 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/picture_784/picture_784}] -log ip_upgrade.log
+WARNING: [Coretcl 2-176] No IPs found
+ERROR: [Common 17-69] Command failed: No IP specified.  Please specify IP with 'objects'
+upgrade_ip [get_ips  {e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_conv1/B_conv1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_conv2/B_conv2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_fc1/B_fc1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/B_fc2/B_fc2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_conv1/W_conv1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_conv2/W_conv2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_fc1/W_fc1 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/W_fc2/W_fc2 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/feature_ram/feature_ram e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/fifo_generator_1000/fifo_generator_1000 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/fifo_generator_200/fifo_generator_200 e:/è//′óé/üоóéè×ù/Comprehensive-practice-of-intelligent-chip-system-design/FPGA-proj-master/CNN_minist/CNN_minist.srcs/sources_1/ip/picture_784/picture_784}] -log ip_upgrade.log
+WARNING: [Coretcl 2-176] No IPs found
+ERROR: [Common 17-69] Command failed: No IP specified.  Please specify IP with 'objects'
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 29 10:42:03 2022...

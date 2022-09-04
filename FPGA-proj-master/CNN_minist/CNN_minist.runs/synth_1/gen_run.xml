@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a200tsbg484-2" LaunchTime="1661862152">
+  <File Type="PA-TCL" Name="cnn.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="cnn_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="cnn_reports.tcl"/>
+  <File Type="RDS-RDS" Name="cnn.vds"/>
+  <File Type="RDS-UTIL" Name="cnn_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="cnn_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="cnn.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="cnn_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="cnn_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Multiply_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CNN/CNN.srcs/sources_1/new/Multiply_adder.v"/>
+        <Attr Name="ImportTime" Val="1632389395"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv1.v"/>
+        <Attr Name="ImportTime" Val="1642330749"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv1_bias.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv1_bias.v"/>
+        <Attr Name="ImportTime" Val="1641445610"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv1_weight.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv1_weight.v"/>
+        <Attr Name="ImportTime" Val="1641284028"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv2.v"/>
+        <Attr Name="ImportTime" Val="1642411778"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv2_bisa.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv2_bisa.v"/>
+        <Attr Name="ImportTime" Val="1641558471"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv2_mutiply.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv2_mutiply.v"/>
+        <Attr Name="ImportTime" Val="1642423035"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/conv2_weight.v"/>
+        <Attr Name="ImportTime" Val="1641630350"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/fc1.v"/>
+        <Attr Name="ImportTime" Val="1642597166"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc1_bias.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/fc1_bias.v"/>
+        <Attr Name="ImportTime" Val="1641878272"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/fc2.v"/>
+        <Attr Name="ImportTime" Val="1642597196"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc2_bias.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/fc2_bias.v"/>
+        <Attr Name="ImportTime" Val="1641878286"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/feature1_ram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/feature1_ram.v"/>
+        <Attr Name="ImportTime" Val="1642052495"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fifo_1000.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/fifo_1000.v"/>
+        <Attr Name="ImportTime" Val="1641808576"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fifo_200.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/fifo_200.v"/>
+        <Attr Name="ImportTime" Val="1641808276"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image_data.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/image_data.v"/>
+        <Attr Name="ImportTime" Val="1642323525"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pooling.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CNN/CNN.srcs/sources_1/new/pooling.v"/>
+        <Attr Name="ImportTime" Val="1627891193"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cnn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CNN/CNN.srcs/sources_1/new/cnn.v"/>
+        <Attr Name="ImportTime" Val="1632390816"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fixpmul.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CNN/CNN.srcs/sources_1/new/fixpmul.v"/>
+        <Attr Name="ImportTime" Val="1636946930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/feature1_fifo.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/new/feature1_fifo.v"/>
+        <Attr Name="ImportTime" Val="1641461526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/adder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CNN/CNN.srcs/sources_1/new/adder.v"/>
+        <Attr Name="ImportTime" Val="1632391669"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/B_conv2/conv2_bias.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/B_conv2/conv2_bias.coe"/>
+        <Attr Name="ImportTime" Val="1641971834"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/W_conv2/conv2_weight.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/W_conv2/conv2_weight.coe"/>
+        <Attr Name="ImportTime" Val="1641971830"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/B_conv1/conv1_bias.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/B_conv1/conv1_bias.coe"/>
+        <Attr Name="ImportTime" Val="1641971826"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/W_conv1/conv1_weight.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/W_conv1/conv1_weight.coe"/>
+        <Attr Name="ImportTime" Val="1641971840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/W_fc1/fc1_weight.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/W_fc1/fc1_weight.coe"/>
+        <Attr Name="ImportTime" Val="1641971867"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/W_fc2/fc2_weight.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/W_fc2/fc2_weight.coe"/>
+        <Attr Name="ImportTime" Val="1641971843"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/B_fc1/fc1_bias.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/B_fc1/fc1_bias.coe"/>
+        <Attr Name="ImportTime" Val="1641971871"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/B_fc2/fc2_bias.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/B_fc2/fc2_bias.coe"/>
+        <Attr Name="ImportTime" Val="1641971847"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/picture_784/image_pix22.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/picture_784/image_pix22.coe"/>
+        <Attr Name="ImportTime" Val="1641822602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/picture_784/image_pix11.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/picture_784/image_pix11.coe"/>
+        <Attr Name="ImportTime" Val="1642582209"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/picture_784/image_pix44.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/picture_784/image_pix44.coe"/>
+        <Attr Name="ImportTime" Val="1641975411"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/picture_784/image_pix414.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../minist_cnn/minist_cnn.srcs/sources_1/ip/picture_784/image_pix414.coe"/>
+        <Attr Name="ImportTime" Val="1642312969"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cnn"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="W_fc1"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="B_conv1"/>
+  <BlockFileSet Type="BlockSrcs" Name="B_conv2"/>
+  <BlockFileSet Type="BlockSrcs" Name="W_conv2"/>
+  <BlockFileSet Type="BlockSrcs" Name="W_fc2"/>
+  <BlockFileSet Type="BlockSrcs" Name="feature_ram"/>
+  <BlockFileSet Type="BlockSrcs" Name="W_conv1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_200"/>
+  <BlockFileSet Type="BlockSrcs" Name="B_fc1"/>
+  <BlockFileSet Type="BlockSrcs" Name="B_fc2"/>
+  <BlockFileSet Type="BlockSrcs" Name="picture_784"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_1000"/>
+</GenRun>
